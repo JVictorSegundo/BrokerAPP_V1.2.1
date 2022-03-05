@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerAPP.Domain", "BrokerAPP.Domain\BrokerAPP.Domain.csproj", "{47BA0279-94DD-4A91-839A-C2C185B04805}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerAPP.Infra", "BrokerAPP.Infra\BrokerAPP.Infra.csproj", "{B96D9684-74C9-4688-AA06-FF8CD0C1A4BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerAPP.WebAPI", "BrokerAPP.WebAPI\BrokerAPP.WebAPI.csproj", "{ADC42F33-21D1-426E-9A83-3ECF051DCC46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerAPP.DIoC", "BrokerAPP.DIoC\BrokerAPP.DIoC.csproj", "{DF469D60-E3D1-4F68-99E3-36EFA6DF0C2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerAPP.Application", "BrokerAPP.Application\BrokerAPP.Application.csproj", "{FBA671F8-F6B9-4131-A5DC-DCE05D72EDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerAPP.Domain.Tests", "BrokerAPP.Domain.Tests\BrokerAPP.Domain.Tests.csproj", "{EF5AFF14-DCBE-4875-B5C6-0601EFA8D794}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47BA0279-94DD-4A91-839A-C2C185B04805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BA0279-94DD-4A91-839A-C2C185B04805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BA0279-94DD-4A91-839A-C2C185B04805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BA0279-94DD-4A91-839A-C2C185B04805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96D9684-74C9-4688-AA06-FF8CD0C1A4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96D9684-74C9-4688-AA06-FF8CD0C1A4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96D9684-74C9-4688-AA06-FF8CD0C1A4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96D9684-74C9-4688-AA06-FF8CD0C1A4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC42F33-21D1-426E-9A83-3ECF051DCC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC42F33-21D1-426E-9A83-3ECF051DCC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC42F33-21D1-426E-9A83-3ECF051DCC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC42F33-21D1-426E-9A83-3ECF051DCC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF469D60-E3D1-4F68-99E3-36EFA6DF0C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF469D60-E3D1-4F68-99E3-36EFA6DF0C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF469D60-E3D1-4F68-99E3-36EFA6DF0C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF469D60-E3D1-4F68-99E3-36EFA6DF0C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA671F8-F6B9-4131-A5DC-DCE05D72EDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA671F8-F6B9-4131-A5DC-DCE05D72EDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA671F8-F6B9-4131-A5DC-DCE05D72EDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA671F8-F6B9-4131-A5DC-DCE05D72EDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5AFF14-DCBE-4875-B5C6-0601EFA8D794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5AFF14-DCBE-4875-B5C6-0601EFA8D794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5AFF14-DCBE-4875-B5C6-0601EFA8D794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5AFF14-DCBE-4875-B5C6-0601EFA8D794}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ED74482-8E17-46A5-9D17-DEC249ADEBA6}
+	EndGlobalSection
+EndGlobal
